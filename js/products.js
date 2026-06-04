@@ -8,7 +8,7 @@ const ProductManager = (() => {
   // ── Configuration ──
   // Replace this URL with your published Google Sheet CSV URL
   // Steps: Google Sheet → File → Share → Publish to web → CSV
-  const SHEET_CSV_URL = '';
+  const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQjtGt7IRbtMj48ilAqUMGcvGVSGisI142539yblXa26Fo8psxbfvlBvlZ8SIqoK2yZMtwHfwXg31Xh/pub?output=csv';
 
   const WHATSAPP_NUMBER = '919822338978';
   const WHATSAPP_BASE_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
